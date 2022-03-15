@@ -72,7 +72,7 @@ public class BreakAPlate {
 				
 				if(eventName == "play")
 				{
-					prize = breakAPlate.start();
+					prize = BreakAPlate.start();
 					if(prize.equals("tiger plush"))
 					{
 						plate.setIcon(threebroken);
