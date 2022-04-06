@@ -8,7 +8,7 @@ public abstract class employee
 	{
 		FirstName = fn;
 		LastName = ln;		
-	}
+	}	
 	
 	public String toString()//employee object
 	{
