@@ -20,18 +20,11 @@ public class test
 			System.out.println("Enter choice: ");
 			action = input.next();
 			
-		
-			if(!action.equalsIgnoreCase("Q"))
-			{
-				
-				
-			
-			
 			if(action.equalsIgnoreCase("C"))
 			{
 				System.out.println(mem3);
 				
-				if (action.equalsIgnoreCase("T"))
+			}else if (action.equalsIgnoreCase("T"))
 				{
 					System.out.println(mem1);
 				}
@@ -41,9 +34,9 @@ public class test
 					
 				}
 			
-			}
+			
 		}
-		}
+		
 		while(!action.equalsIgnoreCase("Q"));
 	
 	}

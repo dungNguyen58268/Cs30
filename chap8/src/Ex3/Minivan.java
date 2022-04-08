@@ -28,18 +28,19 @@ public class Minivan extends Vehicle
 		return Type;
 	}
 	
-	@Override
-	String description() 
+	
+
+	public String description() 
 	{
-		// TODO Auto-generated method stub
-		return ("Feul Economy City: "+ super.getFECity()+"");
+		
+		return ("Feul Economy City: "+ super.getFECity()+" ,Feul Economy Highway: "+ super.getFEHwy()+" ,Seating capacity: "+ super.getSeating());
 	}
 
-	@Override
-	String cargoContainer() 
+	
+	public String cargoContainer() 
 	{
-		// TODO Auto-generated method stub
-		return null ;
+		
+		return ("Cargo Volumn: "+ super.getCargoVolume());
 	}
 	public String toString()//print manager Salary
 	{

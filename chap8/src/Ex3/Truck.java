@@ -12,5 +12,13 @@ public class Truck extends Minivan
 	{
 		return(super.toString());
 	}
+	public String description() 
+	{
+		return(super.description());
+	}
+	public String cargoContainer() 
+	{
+		return(super.cargoContainer());
+	}
 	 
 }
